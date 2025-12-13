@@ -3,8 +3,8 @@ function PrivacyPolicy() {
     <div className="page">
       <h1 className="page-title">Privacy Policy</h1>
       <div className="page-content">
-        <p><strong>Effective Date:</strong> March 8, 2025</p>
-        <p><strong>Last Updated:</strong> March 8, 2025</p>
+        <p><strong>Effective Date:</strong> December 1, 2025</p>
+        <p><strong>Last Updated:</strong> December 13, 2025</p>
 
         <p className="legal-intro">
           This Privacy Policy applies to the Synaptica website (the "Website").
