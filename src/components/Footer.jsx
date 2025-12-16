@@ -4,6 +4,10 @@ function Footer() {
   return (
     <footer className="footer">
       <div className="footer-container">
+        <div className="footer-brand">
+          <img src="/assets/SynapticaLogo.png" alt="Synaptica logo" className="footer-logo" />
+          <span className="footer-brand-name">Synaptica</span>
+        </div>
         <p className="footer-legal">
           Synaptica is a registered business name of 1001420084 Ontario Inc.
         </p>
@@ -16,6 +20,8 @@ function Footer() {
         <div className="footer-links">
           <Link to="/privacy-policy">Privacy Policy</Link>
           <Link to="/terms-of-service">Terms of Service</Link>
+          <Link to="/contact">Support</Link>
+          <Link to="/about">About</Link>
         </div>
       </div>
     </footer>

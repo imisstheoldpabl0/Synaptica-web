@@ -2,6 +2,10 @@ function PrivacyPolicy() {
   return (
     <div className="page">
       <h1 className="page-title">Privacy Policy</h1>
+      <p className="page-subtitle">
+        Privacy practices for the Synaptica website operated by 1001420084 Ontario Inc.
+        This policy covers only the website; products may have their own policies.
+      </p>
       <div className="page-content">
         <p><strong>Effective Date:</strong> December 1, 2025</p>
         <p><strong>Last Updated:</strong> December 13, 2025</p>
