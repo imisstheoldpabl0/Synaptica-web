@@ -76,6 +76,9 @@ function StudyPro() {
             <Link to="/contact" className="button ghost">
               Support channel
             </Link>
+            <Link to="/studypro-privacy-policy" className="button ghost">
+              StudyPro Privacy Policy
+            </Link>
           </div>
         </div>
         <div className="product-hero-icon">

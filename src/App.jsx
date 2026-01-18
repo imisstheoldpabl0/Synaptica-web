@@ -7,6 +7,7 @@ import PrivacyPolicy from './pages/PrivacyPolicy'
 import TermsOfService from './pages/TermsOfService'
 import Contact from './pages/Contact'
 import StudyPro from './pages/StudyPro'
+import StudyProPrivacyPolicy from './pages/StudyProPrivacyPolicy'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/studypro" element={<StudyPro />} />
+          <Route path="/studypro-privacy-policy" element={<StudyProPrivacyPolicy />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
