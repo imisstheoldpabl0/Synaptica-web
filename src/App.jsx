@@ -8,6 +8,7 @@ import TermsOfService from './pages/TermsOfService'
 import Contact from './pages/Contact'
 import StudyPro from './pages/StudyPro'
 import StudyProPrivacyPolicy from './pages/StudyProPrivacyPolicy'
+import StudyProTermsOfService from './pages/StudyProTermsOfService'
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/studypro" element={<StudyPro />} />
           <Route path="/studypro-privacy-policy" element={<StudyProPrivacyPolicy />} />
+          <Route path="/studypro-terms-of-service" element={<StudyProTermsOfService />} />
           <Route path="/about" element={<About />} />
           <Route path="/privacy-policy" element={<PrivacyPolicy />} />
           <Route path="/terms-of-service" element={<TermsOfService />} />
